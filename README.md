@@ -46,7 +46,7 @@ public enum _OP_CODE : ushort
 
 **OP_REQ_DRIVE_LIST:**
 
-Sends across following logical drive information to server - 
+Sends across following logical drive information to the server - 
 - drive.Name
 - drive.VolumeLabel
 - drive.DriveType
@@ -54,7 +54,7 @@ Sends across following logical drive information to server -
 
 **OP_REQ_PATH_LIST:**
 
-Sends across following file & directory information to server - 
+Sends across following file & directory information to the server - 
 - dir.Name
 - dir.LastWriteTime
 - file.Name
