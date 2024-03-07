@@ -70,6 +70,7 @@ Exfiltrate the files/directory to the C2 server via a POST Request.
 	- C2 URL: C2_URL/show.php | C2_URL provided from the Server
 	- User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75
 	- POST Request Body:
-			- filename = ToBase64String(filename) | filename: file to be exfiltrated
+ 			
+   			- filename = ToBase64String(filename) | filename: file to be exfiltrated
 			- Data: ToBase64String(file_contents) ; File contents of file to be exfiltrated
-- POST Request sent via Invoke-WebRequest
+- POST Request with the exfiltrated file/directory sent to C2 server via Invoke-WebRequest
